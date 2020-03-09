@@ -15,7 +15,10 @@ public class ControllPanel : MonoBehaviour {
     public void playAll()
     {
         main.stile.activeTaolu.lastCount = 0;
-        //source.Play();
+		if(main.stile.activeTaolu.source != null){
+			source.clip = main.stile.activeTaolu.source;
+        	source.Play();
+		}
         //Запуск проигрывания всего таолу:
         main.playOnlyAnimation(main.unit, main.stile.activeTaolu.fullName);
     }
@@ -46,9 +49,13 @@ public class ControllPanel : MonoBehaviour {
     //Кнопка назад:
     public void back()
     {
+		main.playOnlyAnimation(main.unit, main.idleAnimationsName[0]);
+		main.backToStilePanel ();
         main.controllPanel.SetActive(false);
-        main.stile.allTaoluPanell.SetActive(true);
+        main.stile.allTaoluPanell.SetActive(false);
         main.stile.state = Stile.stateStile.selectTaolu;
-        main.stile.main.randomAnimation(main.stile.main.unit, main.idleAnimationsName);
+		main.stile.gameObject.SetActive (true);
+		main.stilePanel.SetActive(false);
+        //main.stile.main.randomAnimation(main.stile.main.unit, main.idleAnimationsName);
     }
 }

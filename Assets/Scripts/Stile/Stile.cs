@@ -52,11 +52,12 @@ public class Stile : MonoBehaviour {
 				//Убирем смайлы с кнопки:
 				taolu.updateLockSmile ();
 				if (taolu.loockedState == 0) {
+					main.controllPanel.SetActive (true);
+					//main.controllPanellClass.source.clip = activeTaolu.source; 
 					taolu.openTaolu ();
 					main.stilePanel.SetActive (false);
 					main.leftPanel.SetActive (false);
 					allTaoluPanell.SetActive (false);
-					main.controllPanel.SetActive (true);
 				} else {
 					activeTaolu = null;
 				}

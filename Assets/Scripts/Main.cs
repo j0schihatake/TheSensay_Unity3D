@@ -20,7 +20,9 @@ public class Main : MonoBehaviour {
     public GameObject unityADS = null;
     public GameObject adMobPrefab = null;
 
+	public int start_Count = 1;													
 	public bool cleanPrefs = false;
+	public string cleanerCommand = "clean";
 
     public int chance = 0;
     public int unityChance = 0;
@@ -43,6 +45,7 @@ public class Main : MonoBehaviour {
     public GameObject stilePanel = null;
     public GameObject leftPanel = null;
     public GameObject controllPanel = null;
+	public ControllPanel controllPanellClass = null;
 
     //------------------------------------------------------------------переменные для определения открыты ли стили
     public bool WinChunChamCUI = false;
@@ -114,6 +117,7 @@ public class Main : MonoBehaviour {
 
 	//Метод чистит префсы:
 	void cleanPrefses(){
+		//Если поставили галочку: то делаем тест:
 		for(int i = 0; i < allStile.Count; i++){
 			Stile selectStile = allStile [i];
 			for(int j = 0; j < selectStile.stileTaolu.Count;j++){
@@ -127,8 +131,9 @@ public class Main : MonoBehaviour {
 				}
 				//Debug.Log (selectTaolu.prefsName + " = " + PlayerPrefs.GetInt(selectTaolu.prefsName));
 			}
+			PlayerPrefs.SetString (cleanerCommand, "two_start");
+			PlayerPrefs.SetInt("unityChance", 0);
 		}
-		PlayerPrefs.SetInt("unityChance", 0);
 	}
 
     //обновление значения в gui и сохранение в реестр:

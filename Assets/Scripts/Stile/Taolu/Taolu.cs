@@ -8,7 +8,7 @@ public class Taolu : MonoBehaviour {
 
     public int cost = 3;                                                        //стоимость данного таолу
 
-	public AudioSource source = null;											//мелодия которая бует проигрываться при полном просмотре
+	public AudioClip source = null;											//мелодия которая бует проигрываться при полном просмотре
 
     //полная не нарезанная анимация:
     public string fullName;                                                     //Название анимации всего таолу целиком в аниматоре
@@ -107,7 +107,17 @@ public class Taolu : MonoBehaviour {
 	}
 
 	public void loadLoockedState(){
-		this.loockedState = PlayerPrefs.GetInt (this.prefsName);
+		if (!this.emptyOpen) {
+			if (PlayerPrefs.HasKey(this.prefsName)) {
+				this.loockedState = PlayerPrefs.GetInt (this.prefsName);
+			} else {
+				this.loockedState = 3;
+				PlayerPrefs.SetInt (this.prefsName, 3);
+			}
+		} else {
+			this.loockedState = 0;
+			this.state = stateTaolu.open;
+		}
 	}
 
     public void openTaolu() {

@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 8fb1f847fd8f4864fa39203c505cb0a6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bulka_L
+    100002: Bulka_R
+    100004: Giwot
+    100006: Golen.L
+    100008: Golen.R
+    100010: Grud
+    100012: //RootNode
+    100014: Head
+    100016: Head_end
+    100018: Mesh.001_Mesh.002_Kakashi.004
+    100020: Mesh.002_Mesh_Kakashi.009
+    100022: Mesh_Mesh.001_Kakashi.005
+    100024: Plecew.L
+    100026: Plecew.R
+    100028: Ruka.L
+    100030: Ruka.L.001
+    100032: Ruka.L.002
+    100034: Ruka.L.003
+    100036: Ruka.L.004
+    100038: Ruka.L.005
+    100040: Ruka.L.006
+    100042: Ruka.L.007
+    100044: Ruka.L.008
+    100046: Ruka.L.008_end
+    100048: Ruka.L.009
+    100050: Ruka.L.010
+    100052: Ruka.L.010_end
+    100054: Ruka.L.011
+    100056: Ruka.L.012
+    100058: Ruka.L.012_end
+    100060: Ruka.L.013
+    100062: Ruka.L.014
+    100064: Ruka.L.014_end
+    100066: Ruka.L.015
+    100068: Ruka.L.016
+    100070: Ruka.L.016_end
+    100072: Ruka.L.017
+    100074: Ruka.L.018
+    100076: Ruka.L.019
+    100078: Ruka.L.020
+    100080: Ruka.R
+    100082: Ruka.R.001
+    100084: Ruka.R.002
+    100086: Ruka.R.003
+    100088: Ruka.R.004
+    100090: Ruka.R.005
+    100092: Ruka.R.006
+    100094: Ruka.R.007
+    100096: Ruka.R.008
+    100098: Ruka.R.008_end
+    100100: Ruka.R.009
+    100102: Ruka.R.010
+    100104: Ruka.R.010_end
+    100106: Ruka.R.011
+    100108: Ruka.R.012
+    100110: Ruka.R.012_end
+    100112: Ruka.R.013
+    100114: Ruka.R.014
+    100116: Ruka.R.014_end
+    100118: Ruka.R.015
+    100120: Ruka.R.016
+    100122: Ruka.R.016_end
+    100124: Ruka.R.017
+    100126: Ruka.R.018
+    100128: Ruka.R.019
+    100130: Ruka.R.020
+    100132: Scelet
+    100134: Stupnja.L
+    100136: Stupnja.L_end
+    100138: Stupnja.R
+    100140: Stupnja.R_end
+    100142: Taz
+    400000: Bulka_L
+    400002: Bulka_R
+    400004: Giwot
+    400006: Golen.L
+    400008: Golen.R
+    400010: Grud
+    400012: //RootNode
+    400014: Head
+    400016: Head_end
+    400018: Mesh.001_Mesh.002_Kakashi.004
+    400020: Mesh.002_Mesh_Kakashi.009
+    400022: Mesh_Mesh.001_Kakashi.005
+    400024: Plecew.L
+    400026: Plecew.R
+    400028: Ruka.L
+    400030: Ruka.L.001
+    400032: Ruka.L.002
+    400034: Ruka.L.003
+    400036: Ruka.L.004
+    400038: Ruka.L.005
+    400040: Ruka.L.006
+    400042: Ruka.L.007
+    400044: Ruka.L.008
+    400046: Ruka.L.008_end
+    400048: Ruka.L.009
+    400050: Ruka.L.010
+    400052: Ruka.L.010_end
+    400054: Ruka.L.011
+    400056: Ruka.L.012
+    400058: Ruka.L.012_end
+    400060: Ruka.L.013
+    400062: Ruka.L.014
+    400064: Ruka.L.014_end
+    400066: Ruka.L.015
+    400068: Ruka.L.016
+    400070: Ruka.L.016_end
+    400072: Ruka.L.017
+    400074: Ruka.L.018
+    400076: Ruka.L.019
+    400078: Ruka.L.020
+    400080: Ruka.R
+    400082: Ruka.R.001
+    400084: Ruka.R.002
+    400086: Ruka.R.003
+    400088: Ruka.R.004
+    400090: Ruka.R.005
+    400092: Ruka.R.006
+    400094: Ruka.R.007
+    400096: Ruka.R.008
+    400098: Ruka.R.008_end
+    400100: Ruka.R.009
+    400102: Ruka.R.010
+    400104: Ruka.R.010_end
+    400106: Ruka.R.011
+    400108: Ruka.R.012
+    400110: Ruka.R.012_end
+    400112: Ruka.R.013
+    400114: Ruka.R.014
+    400116: Ruka.R.014_end
+    400118: Ruka.R.015
+    400120: Ruka.R.016
+    400122: Ruka.R.016_end
+    400124: Ruka.R.017
+    400126: Ruka.R.018
+    400128: Ruka.R.019
+    400130: Ruka.R.020
+    400132: Scelet
+    400134: Stupnja.L
+    400136: Stupnja.L_end
+    400138: Stupnja.R
+    400140: Stupnja.R_end
+    400142: Taz
+    2100000: kks_tex02.png_kks_tex_kks_tex02.png
+    2100002: kks_tex01.png_kks_tex_kks_tex01.png
+    2100004: kks_tex01.png_kks_eye_kks_eye.png
+    2100006: kks_eye.png_kks_eye.p_kks_eye.png
+    2300000: Mesh.001_Mesh.002_Kakashi.004
+    2300002: Mesh_Mesh.001_Kakashi.005
+    3300000: Mesh.001_Mesh.002_Kakashi.004
+    3300002: Mesh_Mesh.001_Kakashi.005
+    4300000: Mesh.001_Mesh.002_Kakashi.004
+    4300002: Mesh_Mesh.001_Kakashi.005
+    4300004: Mesh.002_Mesh_Kakashi.009
+    7400000: Scelet|Action
+    7400002: Scelet|CHUM_KIU
+    9500000: //RootNode
+    13700000: Mesh.002_Mesh_Kakashi.009
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kks_eye.png_kks_eye.p_kks_eye.png
+    second: {fileID: 2100000, guid: b8e3e3c89a90dc84fbb1eed90cbb07df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kks_tex01.png_kks_eye_kks_eye.png
+    second: {fileID: 2100000, guid: 32ebfd5caf598d84b972b3b765cf9700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kks_tex01.png_kks_tex_kks_tex01.png
+    second: {fileID: 2100000, guid: 6443400dc99cc964087adb7f02e925bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kks_tex02.png_kks_tex_kks_tex02.png
+    second: {fileID: 2100000, guid: 69afd1d33e59bcf4fb2d2a86ecc28729, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

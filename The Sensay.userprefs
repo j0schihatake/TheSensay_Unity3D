@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControllPanel.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Main.cs" Line="159" Column="31" />
+      <File FileName="Assets\Scripts\Stile\Stile.cs" Line="56" Column="8" />
+      <File FileName="Assets\Scripts\Stile\Taolu\Taolu.cs" Line="111" Column="45" />
+      <File FileName="Assets\Scripts\UnityADSJ0schi.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ControllPanel.cs" Line="58" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
